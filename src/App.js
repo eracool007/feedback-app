@@ -13,7 +13,7 @@ function App(){
 
     return (
         <FeedbackProvider>
-        <Router>
+        <Router basename='/feedback'>
             
            <div className='container'>
             
